@@ -1,11 +1,28 @@
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './pages/Home';
 
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
-     Joo
-    </div>
+    <Router>
+      <div className="App">
+        {/* Yläreunan navigointipalkki */}
+        <nav className="navbar">
+          <ul className="nav-list">
+            <li>
+              <Link to="/" className="nav-item">Home</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* Reitit eri sivuille */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
