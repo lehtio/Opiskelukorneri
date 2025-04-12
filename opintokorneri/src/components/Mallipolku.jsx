@@ -100,11 +100,11 @@ const Mallipolku = () => {
               Täytä
             </td>
             <td>
-                Täytä
+                Kandin voisit saada valmiiksi
 
             </td>
             <td>
-                
+                Tai viimeistään tässä 
             </td>
           </tr>
         </tbody>
