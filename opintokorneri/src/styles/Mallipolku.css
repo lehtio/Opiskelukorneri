@@ -14,13 +14,13 @@
   .study-plan th,
   .study-plan td {
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #122262;
     vertical-align: top;
     text-align: left;
   }
   
   .study-plan th {
-    background-color: #fbc6a2;
+    background-color: #c7ceec;
     font-weight: bold;
   }
   
@@ -32,12 +32,12 @@
   
   .study-plan td * {
     font-size: 12px;
-    color: #555;
+    color: #122262;
   }
  
 
   h1 {
-    color: #333;
+    color: #122262;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -49,7 +49,7 @@
   }
   
   a {
-    color: #fca368;
+    color: #122262;
     text-decoration: none;
   }
   

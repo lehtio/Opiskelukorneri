@@ -1,7 +1,7 @@
 /* Yläpalkki (navbar) */
 .navbar {
   width: 100%;
-  background-color: #fca368;
+  background-color: #122262;
   padding: 10px 0;
   position: fixed; /* kiinnittää navbaarin yläreunaan */
   top: 0;
@@ -21,7 +21,7 @@
 }
 
 .nav-item {
-  color: white;
+  color: rgb(44, 41, 41);
   text-decoration: none;
   font-weight: bold;
   padding: 10px 20px;
@@ -29,12 +29,13 @@
 }
 
 .nav-item:hover {
-  background-color: #ffffff; /* vaihtaa väriä hover-tilassa */
+  background-color: #dad8d8; /* vaihtaa väriä hover-tilassa */
   border-radius: 5px;
+  color: #122262; /* vaihtaa väriä hover-tilassa */
 }
 
 .nav-item.active {
-  color: #f63552; /* vaaleanpunainen väri aktiiviselle sivulle, ei toimi */
+  color: #122262; /* vaaleanpunainen väri aktiiviselle sivulle, ei toimi */
 }
 
 .App {

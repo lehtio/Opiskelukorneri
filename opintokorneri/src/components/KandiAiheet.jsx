@@ -18,9 +18,8 @@ const Kandi = () => {
 
     return (
         <div className="container">
-            <h2 className="title">Vinkkejä kandia kirjoittaville</h2>
-            <p>Täältä löydät yleisiä virheitä, joita kandeja lukiessa on tullut vastaan.</p>
-            <h3 className="subtitle">Aiheideoita</h3>
+            
+            
             <p className="description"> Täältä voit etsiä itsellesi kandiaihetta tai edes ajatusta siitä, minkä tyyppisestä aiheesta voisit kirjoittaa.
             </p>
 
