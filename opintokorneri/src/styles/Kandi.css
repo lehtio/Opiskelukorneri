@@ -30,15 +30,15 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: palevioletred;
+    color: #fca368;
 }
 
 .search-input, .category-select {
     padding: 8px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #8b8a8a;
     border-radius: 4px;
-    color: palevioletred;
+    color: #fca368;
 }
 
 .search-input {
@@ -58,11 +58,11 @@
 
 .result-item {
     padding: 10px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #d0cbcb;
     
 }
 
 .result-item em {
     color: #888;
-    color: pink;
+    color: #fca368;
 }

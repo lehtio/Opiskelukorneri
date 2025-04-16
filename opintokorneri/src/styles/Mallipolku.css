@@ -20,12 +20,12 @@
   }
   
   .study-plan th {
-    background-color: #d9e2ec;
+    background-color: #fbc6a2;
     font-weight: bold;
   }
   
   .study-plan td {
-    background-color: #f5f8fa;
+    background-color: #ffffff;
     font-size: 14px;
     line-height: 1.6;
   }
@@ -49,7 +49,7 @@
   }
   
   a {
-    color: #bddfe0;
+    color: #fca368;
     text-decoration: none;
   }
   
