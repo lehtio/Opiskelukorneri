@@ -56,4 +56,17 @@
   a:hover {
     text-decoration: underline;
   }
+  .monikarki-button{
+    color: #0e1a4d;
+    padding: 10px 20px;
+    border: #0e1a4d solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .monikarki-button:hover{
+    background-color: #0e1a4d;
+    color: white;
+  }
   

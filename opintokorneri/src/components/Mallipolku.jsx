@@ -1,14 +1,12 @@
 import React from 'react';
-import '../styles/Mallipolku.css';
+import '../styles/Tutkinto.css';
 
-// saisikohan tästä taas tietokannan? Tähän tullaan väähntämään joku fiksumpi rakenne
 const Mallipolku = () => {
   return (
     <div className="studies-container">
       <h2>Vaihtoehtoinen mallipolku tieto- ja ohjelmistotekniikan kandiin</h2>
-      <p>Huomioithan että tämä ei ole yliopiston ohjeistama opintopolku, mutta omalla kokemuksella muotoiltu suositus. 
-          Tätä saa hyödyntää tai olla hyödyntämättä. Sitten kun löydän aikaa, yritän kirjoitella jokaisesta kurssista pientä tiivistystä,
-          mitä kurssiin on kuulunut ja oliko kurssi mielestäni työläs. 
+      <p>Huomioithan että tämä ei ole yliopiston ohjeistama opintopolku, mutta itse muotoiltu vaihtoehto. 
+          Tätä saa hyödyntää tai olla hyödyntämättä. 
       </p>
       <p>Jos aikaa ja intoa riittää, voisin tehdä myös vaihtoehtoisen mallipolun niille, jotka haluaisivat lähteä vaihtoon kandin tutkinnon 
         aikana, mutta jotka haluaisivat kuitenkin valmistua kandiksi aikataulussa.
@@ -100,11 +98,11 @@ const Mallipolku = () => {
               Täytä
             </td>
             <td>
-                Kandin voisit saada valmiiksi
+                Kandin kirjoittelua
 
             </td>
             <td>
-                Tai viimeistään tässä 
+                Kandin kirjoittelua 
             </td>
           </tr>
         </tbody>

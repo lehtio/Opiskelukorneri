@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Olio from './Olio';
 import Kandi from './Kandi';
 import Vaihto from './Vaihto';
-import Mallipolku from './Mallipolku';
+import Tutkinto from './Tutkinto';
 import '../styles/Studies.css';
 import Footer from '../components/Footer';
 
@@ -15,7 +15,7 @@ const Home = () => {
         <nav className="navbar">
           <ul className="nav-list">
             <li><Link to="/" className="nav-item">Home</Link></li>
-            <li><Link to="/mallipolku" className="nav-item">Mallipolku</Link></li>
+            <li><Link to="/tutkinto" className="nav-item">Tutkinto</Link></li>
             <li><Link to="/kandi" className="nav-item">Kandi</Link></li>
             <li><Link to="/vaihto" className="nav-item">Vaihto</Link></li>
             <li><Link to="/olio" className="nav-item">Oliot</Link></li>
@@ -25,7 +25,7 @@ const Home = () => {
         {/* Reitit */}
         <Routes>
 
-         <Route path="/mallipolku" element={<Mallipolku />} />
+         <Route path="/tutkinto" element={<Tutkinto />} />
           <Route path="/olio" element={<Olio />} />
           <Route path="/kandi" element={<Kandi />} />
           <Route path="/vaihto" element={<Vaihto />} />

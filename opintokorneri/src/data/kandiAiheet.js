@@ -17,10 +17,6 @@ const kandiAiheet = [
         kategoria: 'Kyber'
     },
     {
-        aihe: 'TLS- ja SSL-protokollien merkitys verkkoturvallisuudessa',
-        kategoria: 'Kyber'
-    },
-    {
         aihe: 'Kriittisen infrastruktuurin kyberturvallisuus',
         kategoria: 'Kyber'
     },
@@ -39,23 +35,15 @@ const kandiAiheet = [
         kategoria: 'Riskienhallinta'
     },
     {
-        aihe: 'Kybervakuutukset: hyödyt ja haasteet organisaatioille',
-        kategoria: 'Riskienhallinta'
-    },
-    {
         aihe: 'Liiketoiminnan jatkuvuussuunnittelu kyberhyökkäysten varalle',
         kategoria: 'Riskienhallinta'
     },
     {
-        aihe: 'Sosiaalisen manipuloinnin riskien hallinta',
+        aihe: 'Disaster Recovery Plan IT-ympäristöissä',
         kategoria: 'Riskienhallinta'
     },
     {
-        aihe: 'Disaster Recovery Plan -suunnitelmat IT-ympäristöissä',
-        kategoria: 'Riskienhallinta'
-    },
-    {
-        aihe: 'Riskienhallinta ohjelmistokehityksen elinkaarihallinnassa',
+        aihe: 'Riskienhallinta ohjelmistokehityksen elinkaaren hallinnassa',
         kategoria: 'Riskienhallinta'
     },
 
@@ -74,10 +62,6 @@ const kandiAiheet = [
     },
     {
         aihe: 'CRM-järjestelmät ja asiakasdatan hallinta liiketoiminnassa',
-        kategoria: 'Liiketoiminta'
-    },
-    {
-        aihe: 'Blockchainin mahdollisuudet liiketoiminnassa',
         kategoria: 'Liiketoiminta'
     },
     {
@@ -107,10 +91,6 @@ const kandiAiheet = [
         kategoria: 'IT-kontrollit'
     },
     {
-        aihe: 'Käyttöoikeuksien hallinta yrityksissä',
-        kategoria: 'IT-kontrollit'
-    },
-    {
         aihe: 'Tietoturvakontrollien auditointi',
         kategoria: 'IT-kontrollit'
     },
@@ -128,12 +108,9 @@ const kandiAiheet = [
         aihe: 'GDPR ja sen vaikutukset ohjelmistokehitykseen',
         kategoria: 'Tietoturva-asetukset'
     },
+    
     {
-        aihe: 'CERT-organisaation rooli kyberturvallisuudessa',
-        kategoria: 'Tietoturva-asetukset'
-    },
-    {
-        aihe: 'Tietojen anonymisointi ja pseudonymisointi GDPR:n kannalta',
+        aihe: 'Tietojen anonymisointi GDPR:n kannalta',
         kategoria: 'Tietoturva-asetukset'
     },
     {
@@ -168,10 +145,6 @@ const kandiAiheet = [
     },
     {
         aihe: 'Projektin aikataulutuksen haasteet IT-alalla',
-        kategoria: 'Projektinhallinta'
-    },
-    {
-        aihe: 'Ketterien menetelmien käyttö ohjelmistoprojektien hallinnassa',
         kategoria: 'Projektinhallinta'
     },
     {
