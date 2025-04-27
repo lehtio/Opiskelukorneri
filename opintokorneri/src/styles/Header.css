@@ -1,0 +1,17 @@
+/* src/styles/Header.css */
+.navbar {
+    
+    padding: 1rem;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #333;
+  }
+  
