@@ -14,6 +14,30 @@ body {
   min-height: 100vh;
 }
 
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-image: url('../assets/etusivutausta.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  opacity: 0.5; /* Pehmeä taustakuva */
+  pointer-events: none; /* Ei estä klikkauksia tekstissä */
+  z-index: -1; /* Kuva pysyy taustalla */
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
+  overflow: hidden;
+}
+
+.home-container {
+  position: relative;
+  z-index: 1; /* Tekstit näkyvät kuvan päällä */
+}
+
+
 /* Navigaatio */
 /* Navigaatio */
 .navbar {
@@ -48,12 +72,15 @@ body {
 
 /* Sisältö */
 
-.content {
-  max-width: 1000px;
-  padding: 2rem;
-  margin: 4rem auto auto 2rem; /* Siirretään vasemmalle */
-  text-align: left; /* Teksti vasemmalle */
-}
+
+  .content {
+    max-width: 55%; /* Teksti vie vain vasemman puolen */
+    padding: 2rem;
+    margin: 4rem auto auto 2rem;
+    text-align: left;
+  }
+  
+
 
 .title {
   font-size: 4rem;
