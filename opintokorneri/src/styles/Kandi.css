@@ -1,117 +1,143 @@
 /* Tausta ja yleinen ulkoasu */
 body {
-    background-color: #f9f9ff;
-    font-family: 'Arial', sans-serif;
-    color: #122262;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Kontti vasemmalle linjatulla sisällöllä */
-  .container {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-    text-align: left;
-  }
-  
-  /* Otsikot */
-  .title {
-    font-size: 5.8rem;
-    font-weight: bold;
-    color: #122262;
-    margin-bottom: 1rem;
-    text-align: left;
-  }
-  
-  .subtitle {
-    font-size: 2.8rem;
-    font-weight: bold;
-    color: #122262;
-    margin: 2rem 0 1rem;
-    text-align: center;
-  }
-  
-  /* Yleinen tekstisisältö */
-  .container p {
-    font-size: 1.3rem;
-    color: #122262;
-    margin-bottom: 1rem;
-    text-align: left;
-  }
-  
-  /* Linkit korostevärillä */
-  .container a {
-    color: #122262;
-    font-weight: 500;
-    background-color: #dee6ff;
-    padding: 2px 6px;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  
-  .container a:hover {
-    background-color: #c1d0ff;
-  }
-  
-  /* Kandiaiheita "nappi"-otsikko */
-  .button-heading {
-    display: block;
-    text-align: center;
-    background-color: #122262;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: bold;
-    padding: 0.8rem 1.5rem;
-    border-radius: 8px;
-    margin: 2rem auto 2rem;
-    width: fit-content;
-  }
-  
-  /* Hakukenttä ja kategoria */
-  .search-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    justify-content: center;
-  }
-  
-  .search-input,
-  .category-select {
-    padding: 0.7rem;
-    font-size: 1rem;
-    border: 1px solid #122262;
-    border-radius: 6px;
-  }
-  
-  .search-input {
-    flex: 2;
-    min-width: 250px;
-  }
-  
-  .category-select {
-    flex: 1;
-    min-width: 180px;
-  }
-  
-  /* Kandiaiheiden listaus */
-  .results-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .result-item {
-    padding: 0.6rem 0;
-    border-bottom: 1px solid #eee;
-    font-size: 1rem;
-    color: #122262;
-  }
-  
-  .result-item em {
-    font-style: italic;
-    color: #6c7ab7;
-  }
-  
+  background-color: #f9f9ff;
+  font-family: 'Arial', sans-serif;
+  color: #122262;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Kontti vasemmalle linjatulla sisällöllä */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Otsikot */
+.title {
+  font-size: 5.8rem;
+  font-weight: bold;
+  color: #122262;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #122262;
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+/* Yleinen tekstisisältö */
+.container p {
+  font-size: 1.3rem;
+  color: #122262;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Linkit */
+.container a {
+  color: #122262;
+  font-weight: 500;
+  background-color: #dee6ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.container a:hover {
+  background-color: #c1d0ff;
+}
+
+/* Kandiaiheiden "nappi"-otsikko */
+.button-heading {
+  display: block;
+  text-align: center;
+  background-color: #122262;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  margin: 2rem auto 2rem;
+  width: fit-content;
+}
+
+/* Hakukenttä ja kategoria */
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.search-input,
+.category-select {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #122262;
+  border-radius: 6px;
+}
+
+.search-input {
+  flex: 2;
+  min-width: 250px;
+}
+
+.category-select {
+  flex: 1;
+  min-width: 180px;
+}
+
+/* Kandiaiheiden listaus */
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+  color: #122262;
+}
+
+.result-item em {
+  font-style: italic;
+  color: #6c7ab7;
+}
+
+/* Tips-osio */
+.tips-section {
+ 
+}
+
+.tips-list {
+  list-style-type: " 🍋  ";
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tips-list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #122262;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover tehoste listoille */
+.tips-list li:hover {
+  color: #6c7ab7;
+  background-color: #e6ebff;
+  border-radius: 6px;
+  padding: 0.3rem;
+}
