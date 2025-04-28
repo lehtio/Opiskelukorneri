@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Studies.css';
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
           Sikäli mikäli päädyit jo tälle sivulle ja sulla on jotain kysymyksiä tai haasteita, 
           heitä viestiä telegrammissa / muissa someissa &lt;3
         </p>
+        <Footer /> {/* Footer näkyy myös kaikilla sivuilla */}
       </div>
+      
     </div>
   );
 };

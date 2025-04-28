@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/kandi" element={<Kandi />} />
           <Route path="/vaihto" element={<Vaihto />} />
         </Routes>
-        <Footer /> {/* Footer näkyy myös kaikilla sivuilla */}
+       
       </div>
     </Router>
   );
