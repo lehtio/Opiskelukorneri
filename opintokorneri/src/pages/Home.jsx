@@ -17,7 +17,7 @@ const Home = () => {
           Sikäli mikäli päädyit jo tälle sivulle ja sulla on jotain kysymyksiä tai haasteita, 
           heitä viestiä telegrammissa / muissa someissa &lt;3
         </p>
-        <Footer /> {/* Footer näkyy myös kaikilla sivuilla */}
+        <Footer /> {/* Footer täällä eikä App.jsx sillä halutaan sen näkuvän vain etusivulla */}
       </div>
       
     </div>
