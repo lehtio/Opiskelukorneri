@@ -3,10 +3,12 @@ import KandiAiheet from '../components/KandiAiheet';
 import '../styles/Kandi.css'; 
 import kuva from '../assets/sitruuna.png'; // huom. korjattu import
 
+      /*Lisää tänne myöshighlightit Home sivun tapaan*/
+
 const KandiPage = () => {
   return (
-    <div className="container">
-      <h2 className="title">Vinkkejä kandia kirjoittaville</h2>
+    <div className="containerKandi">
+      <h2 className="titleKandi">Vinkkejä kandia kirjoittaville</h2>
       <img src={kuva} alt="Sitruuna" style={{ width: '200px', height: 'auto', display: 'block', margin: '2rem auto' }} />
       
       <p>Täältä löytyy kootusti erilaisia kandiin (ja miksei DI-työhönkin) liittyviä juttuja joista voi enemmän tai vähemmän olla iloa ja hyötyä. 
@@ -16,7 +18,7 @@ const KandiPage = () => {
       <p>Ja hei, jos sulla on jotain vinkkejä tai ideoita mitä haluaisit jakaa, pistä ihmeessä viestiä! :)</p>
       
       <div className="tips-section">
-        <h3 className="subtitle">Helposti mokattavat huolimattomuusvirheet</h3>
+        <h3 className="subtitleKandi">Helposti mokattavat huolimattomuusvirheet</h3>
         <p>Tässä listaus asioista mitkä kannattaa tarkistaa omassa kandissa. Nää tuntuu olevan toistuvia hutilointeja joita olis helppo välttää ja jotka pystyy tarkistamaan kerralla kirjoituksen lopussa (ja nou stress, nää ei oo paha juttu):</p>
         <ul className="tips-list">
           <li>Käy läpi kaikki lähdeviitteet. Suomen kielisessä tekstissä tekijöiden sukunimet pitää taivuttaa verbin mukaisiin muotoihin. Helpoin tapa taivuttaa nimiä on käyttää "citeyear"-komentoa jolla saat pelkästään lähteen viitteen latexilla.</li>
@@ -30,7 +32,7 @@ const KandiPage = () => {
 
       <p>Psst... jos tuntuu, että olet pyörittänyt tekstiäsi jo pitkään ja sen hahmottaminen alkaa mennä vaikeaksi, pyydä kaveria (tai vaikka mua) lukemaan ja kommentoimaan sitä.</p>
       
-      <h3 className="subtitle">Aiheideoita</h3>
+      <h3 className="subtitleKandi">Aiheideoita</h3>
       <KandiAiheet />
     </div>
   );
