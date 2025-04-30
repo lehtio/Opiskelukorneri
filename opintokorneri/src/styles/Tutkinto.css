@@ -1,72 +1,93 @@
 .studies-container {
   padding: 20px;
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 80px;
   text-align: center;
-  margin-top: 80px; }
-  
-  .study-plan {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .study-plan th,
-  .study-plan td {
-    padding: 15px;
-    border: 1px solid #122262;
-    vertical-align: top;
-    text-align: left;
-  }
-  
-  .study-plan th {
-    background-color: #c7ceec;
-    font-weight: bold;
-  }
-  
-  .study-plan td {
-    background-color: #ffffff;
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  
-  .study-plan td * {
-    font-size: 12px;
-    color: #122262;
-  }
- 
+}
 
-  h1 {
-    color: #122262;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    text-align: center;
-    max-width: 600px;
-    margin-bottom: 20px;
-  }
-  
-  a {
-    color: #122262;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  .monikarki-button{
-    color: #0e1a4d;
-    padding: 10px 20px;
-    border: #0e1a4d solid 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  .monikarki-button:hover{
-    background-color: #0e1a4d;
-    color: white;
-  }
-  
+/* Keskitetään kaikki sisältö kontissa */
+.studies-container h1,
+.studies-container h2,
+.studies-container h3,
+.studies-container p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Taulukko-opintopolku */
+.study-plan {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.study-plan th,
+.study-plan td {
+  padding: 15px;
+  border: 1px solid #122262;
+  vertical-align: top;
+  text-align: left;
+}
+
+.study-plan th {
+  background-color: #c7ceec;
+  font-weight: bold;
+}
+
+.study-plan td {
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.study-plan td * {
+  font-size: 12px;
+  color: #122262;
+}
+
+.ylarivi{
+  margin-top: 80px;
+}
+/* Yleinen typografia */
+h1 {
+  color: #122262;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 80px;
+
+}
+
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+
+a {
+  color: #122262;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Nappi */
+.monikarki-button {
+  color: #0e1a4d;
+  padding: 10px 20px;
+  border: #0e1a4d solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.monikarki-button:hover {
+  background-color: #0e1a4d;
+  color: white;
+}

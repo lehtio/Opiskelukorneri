@@ -12,7 +12,7 @@ const KandiPage = () => {
   };
   return (
     <div>
-      <p>Täältä ajatuksia ja vinkkejä tutkintoon ja sen suunnitteluun</p>
+      <p className="ylarivi">Täältä ajatuksia ja vinkkejä tutkintoon ja sen suunnitteluun</p>
       <h1>Tutkinto</h1>
       <Mallipolku />
 
