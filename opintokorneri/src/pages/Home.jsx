@@ -10,8 +10,8 @@ const Home = () => {
 
       {/* Varsinainen sisältö */}
       <div className="content">
-        <h1 className="title">
-          Tervetuloa oppimaan ja oivaltamaan <span className="highlight">Opiskelukorneriin.</span>
+        <h1 className="titleHome">
+          Tervetuloa oppimaan ja oivaltamaan <span className="highlight">Opiskelukorneriin</span>
         </h1>
         <p className="description">
           Sikäli mikäli päädyit jo tälle sivulle ja sulla on jotain kysymyksiä tai haasteita, 

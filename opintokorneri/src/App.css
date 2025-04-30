@@ -29,7 +29,6 @@
 }
 
 .nav-item:hover {
-  background-color: #dad8d8; /* vaihtaa väriä hover-tilassa */
   border-radius: 5px;
   color: #122262; /* vaihtaa väriä hover-tilassa */
 }
@@ -52,16 +51,8 @@
 
 
 
-.main-content {
-  max-width: 600px; 
-  text-align: center; 
-}
 
 
 
-
-/* puhelimen leveyden desing  */
-@media (max-width: 850px) {
-}
 
   
