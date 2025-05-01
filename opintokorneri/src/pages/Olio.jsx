@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Flashcard from '../components/Flashcard';
 import flashcards from '../data/flashcards';
+import '../styles/Olio.css';
+
 
 const Olio = () => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);

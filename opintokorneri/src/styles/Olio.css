@@ -1,0 +1,96 @@
+/* Yleinen asettelu flashcard-sivulle */
+/* Keskitys koko sivun korkeudella */
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;      
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9ff;
+  }
+  
+  
+  /* Otsikot */
+  .flashcard-container h2 {
+    font-size: 3rem;
+    color: #122262;
+    margin-bottom: 1rem;
+  }
+  
+  /* Info-teksti ja linkki */
+  .flashcard-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .flashcard-container a {
+    color: #122262;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #dee6ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .flashcard-container a:hover {
+    background-color: #c1d0ff;
+  }
+  
+  /* Napit: edellinen, seuraava ja flip */
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .prev-button,
+  .next-button,
+  .flip-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #122262;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover,
+  .flip-button:hover {
+    background-color: #35468d;
+  }
+  
+  /* Mobiililaitteet */
+  @media (max-width: 600px) {
+    .flashcard-container {
+      padding: 1rem;
+    }
+  
+    .card {
+      width: 70%;
+      height: auto;
+      min-height: 180px;
+    }
+  
+    .button-row {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .prev-button,
+    .next-button,
+    .flip-button {
+      width: 100%;
+    }
+  }
+  
