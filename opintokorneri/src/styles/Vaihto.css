@@ -9,7 +9,6 @@
     font-size: 1.2rem;
     line-height: 1.5;
     color: #122262;
-    transition: color 0.3s ease, background-color 0.3s ease;
   }
   
   /* Hover tehoste listoille */
@@ -18,4 +17,11 @@
     background-color: #e6ebff;
     border-radius: 6px;
     padding: 0.3rem;
+  }
+
+  .containerVaihto{
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 5rem;
+    text-align: left;
   }

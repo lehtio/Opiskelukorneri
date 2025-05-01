@@ -4,7 +4,7 @@ import '../styles/Vaihto.css';
 
 const Vaihto = () => {
   return (
-    <div>
+    <div className="containerVaihto">
       <p>Ai vaihtoonko oot menossa? No täältä löytynee sulle sitten kivaa infoa aiheesta</p>
       <h1>Vaihtojutut</h1>
       

@@ -10,7 +10,7 @@ body {
 
 /* Kontti vasemmalle linjatulla sisällöllä */
 .containerKandi {
-  max-width: 95%;
+  max-width: 90%;
   margin: 2rem auto;
   padding: 1rem;
   text-align: center;
@@ -53,6 +53,11 @@ body {
 
 .containerKandi a:hover {
   background-color: #c1d0ff;
+}
+
+.containerAiheet{
+  text-align: left;
+    padding-left: 1rem;
 }
 
 /* Kandiaiheiden "nappi"-otsikko */
@@ -112,7 +117,7 @@ body {
 
 .result-item em {
   font-style: italic;
-  color: #6c7ab7;
+  color: #c9cfe9;
 }
 
 /* Tips-osio */
@@ -159,12 +164,19 @@ body {
     text-align: center;
   }
 
-  .titleHome {
+  .titleKandi {
     font-size: 3rem;
     text-align: center;
     word-break: break-word;
   }
 
+  .subtitleKandi{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 2rem;
+    text-align: center;
+   
+  }
   .descriptionHome {
     font-size: 1,5rem;
     margin-top: 5rem;
@@ -173,5 +185,23 @@ body {
     word-break: break-word;
     line-height: 1.5;
   }
+
+  /* Kandiaiheiden listaus  */
+  .containerAiheet {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .results-list {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0.5rem;
+  }
+
+  .result-item {
+    padding-left: 0.2rem;
+  }
+
+  
 
 }

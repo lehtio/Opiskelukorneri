@@ -17,7 +17,7 @@ const Kandi = () => {
     });
 
     return (
-        <div className="container">
+        <div className="containerAiheet">
             
             
             <p className="description"> Täältä voit etsiä itsellesi kandiaihetta tai edes ajatusta siitä, minkä tyyppisestä aiheesta voisit kirjoittaa.
