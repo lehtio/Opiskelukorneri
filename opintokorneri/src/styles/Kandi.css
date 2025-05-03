@@ -1,4 +1,4 @@
-/* Tausta ja yleinen ulkoasu */
+/* Yleinen ulkoasu */
 body {
   background-color: #f9f9ff;
   font-family: 'Arial', sans-serif;
@@ -8,37 +8,83 @@ body {
   padding: 0;
 }
 
-/* Kontti vasemmalle linjatulla sisällöllä */
+/* Kontti */
 .containerKandi {
   max-width: 90%;
   margin: 2rem auto;
   padding: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
-/* Otsikot */
+/* Hero-osio (kuva vasemmalla, teksti oikealla) */
+.hero-container-kandi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem 4rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-wrapper-kandi {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.circle-bg-kandi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  background-color: #fbe081;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.hero-image-kandi {
+  position: relative;
+  width: 180px;
+  height: auto;
+  margin: 3rem auto;
+  z-index: 1;
+  display: block;
+}
+
+.hero-text-kandi {
+  flex: 1;
+  text-align: left;
+}
+
 .titleKandi {
-  font-size: 5.8rem;
+  font-size: 4.5rem;
   font-weight: bold;
   color: #122262;
   margin-bottom: 1rem;
-  text-align: center;
 }
 
+.hero-summary-kandi {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Väliotsikot */
 .subtitleKandi {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #122262;
-  margin: 2rem 0 1rem;
+  margin: 3rem 0 1rem;
   text-align: center;
 }
 
-/* Yleinen tekstisisältö */
+/* Tekstisisältö */
 .containerKandi p {
   font-size: 1.1rem;
   color: #122262;
   margin-bottom: 1rem;
-  text-align: left;
 }
 
 /* Linkit */
@@ -55,12 +101,12 @@ body {
   background-color: #c1d0ff;
 }
 
-.containerAiheet{
+/* Kandiaiheiden osio */
+.containerAiheet {
   text-align: left;
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-/* Kandiaiheiden "nappi"-otsikko */
 .button-heading {
   display: block;
   text-align: center;
@@ -70,11 +116,10 @@ body {
   font-weight: bold;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
-  margin: 2rem auto 2rem;
+  margin: 2rem auto;
   width: fit-content;
 }
 
-/* Hakukenttä ja kategoria */
 .search-container {
   display: flex;
   flex-wrap: wrap;
@@ -120,88 +165,83 @@ body {
   color: #c9cfe9;
 }
 
-/* Tips-osio */
-
-
-
+/* Tips-lista */
 .tips-list {
-  list-style-type: " 🍋     ";
+  list-style-type: " 🍋 ";
   padding-left: 1.5rem;
   margin-top: 5rem;
   width: 90%;
   text-align: left;
   padding-bottom: 2rem;
-
 }
 
 .tips-list li {
   margin-bottom: 1rem;
-  margin-left:1rem;
+  margin-left: 1rem;
   font-size: 1.2rem;
   line-height: 1.5;
   color: #122262;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover tehoste listoille */
 .tips-list li:hover {
-  color: #eeeedb;
-  background-color: #122262;
+  background-color: #e6ebff;
   border-radius: 6px;
-
 }
 
-
-
-/* Mobiiliversio */
+/* Mobiilimuotoilu */
 @media (max-width: 768px) {
+  .hero-container-kandi {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
 
-  .contentHome {
-    width: 95%;
-    max-width: 95%;
-    margin: 1rem auto;
-    padding: 1rem;
+  .image-wrapper-kandi {
+    width: 200px;
+    height: 250px;
+  }
+
+  .circle-bg-kandi {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-image-kandi {
+    width: 140px;
+    margin: 2rem auto;
+  }
+
+  .hero-text-kandi {
     text-align: center;
+    padding: 0 1rem;
   }
 
   .titleKandi {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     word-break: break-word;
   }
 
-  .subtitleKandi{
-    margin-top: 20%;
-    margin-bottom: 10%;
-    font-size: 2rem;
-    text-align: center;
-   
-  }
-  .descriptionHome {
-    font-size: 1,5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    text-align: center;
-    word-break: break-word;
-    line-height: 1.5;
+  .hero-summary-kandi {
+    font-size: 1rem;
   }
 
-  /* Kandiaiheiden listaus  */
-  .containerAiheet {
-    text-align: left;
+  .subtitleKandi {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .containerKandi p {
+    text-align: center;
+  }
+
+  .tips-list {
     padding-left: 1rem;
   }
 
-  .results-list {
-    text-align: left;
-    margin-left: 0;
-    padding-left: 0.5rem;
+  .tips-list li {
+    font-size: 1rem;
   }
-
-  .result-item {
-    padding-left: 0.2rem;
-  }
-
-  
-
 }

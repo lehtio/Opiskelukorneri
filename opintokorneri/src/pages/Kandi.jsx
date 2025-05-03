@@ -8,15 +8,20 @@ import kuva from '../assets/sitruuna.png'; // huom. korjattu import
 const KandiPage = () => {
   return (
     <div className="containerKandi">
-      <h2 className="titleKandi">Vinkkejä kandia kirjoittaville</h2>
-      <img src={kuva} alt="Sitruuna" style={{ width: '200px', height: 'auto', display: 'block', margin: '2rem auto' }} />
-      
-      <p>Täältä löytyy kootusti erilaisia kandiin (ja miksei DI-työhönkin) liittyviä juttuja joista voi enemmän tai vähemmän olla iloa ja hyötyä. 
-        Alta löytyy muun muassa “helposti mokattavat huolimattomuusvirheet” -lista sekä kootusti erilaisia aiheideoita, joita aikojen saatossa on tullut pohdittua. 
-        Voit ottaa aiheita käyttöön ihan sellaisenaan tai käyttää inspiksenä, mut jos otat aiheen, laita mulle jooko viestiä ettei muut ota vahingossa samaa. 
-        Lueskelen ilolla kandeja ja antelen palautetta, joten jos kaipaat extra opponointia, pistä viestiä!</p>
-      <p>Ja hei, jos sulla on jotain vinkkejä tai ideoita mitä haluaisit jakaa, pistä ihmeessä viestiä! :)</p>
-      
+      {/* Hero Section */}
+      <div className="hero-container-kandi">
+        <div className="image-wrapper-kandi">
+          <div className="circle-bg-kandi"></div>
+          <img src={kuva} alt="Sitruuna" className="hero-image-kandi" />
+        </div>
+        <div className="hero-text-kandi">
+          <h2 className="titleKandi">Vinkit kandiin</h2>
+          <p className="hero-summary-kandi">
+          Täältä löytyy kootusti erilaisia kandiin (ja miksei DI-työhönkin) liittyviä juttuja joista voi enemmän tai vähemmän olla iloa ja hyötyä. 
+   </p>
+        </div>
+      </div>
+     
       <div className="tips-section">
         <h3 className="subtitleKandi">Helposti mokattavat huolimattomuusvirheet</h3>
         <p>Tässä listaus asioista mitkä kannattaa tarkistaa omassa kandissa. Nää tuntuu olevan toistuvia hutilointeja joita olis helppo välttää ja jotka pystyy tarkistamaan kerralla kirjoituksen lopussa (ja nou stress, nää ei oo paha juttu):</p>
