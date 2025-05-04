@@ -16,8 +16,8 @@ const KandiPage = () => {
       <h1>Tutkinto</h1>
       <Mallipolku />
 
-      <h2>Jatkatko samaan maisteriin?</h2>
-      <p>Ja hei, aiotko jatkaa suoraan saman kandin maisteriin vai ootko miettiny olisko toinen maisteri sulle osuvampi?
+      <h2 className="maisterivalinta">Jatkatko samaan maisteriin?</h2>
+      <p className="">Ja hei, aiotko jatkaa suoraan saman kandin maisteriin vai ootko miettiny olisko toinen maisteri sulle osuvampi?
         <br />
         Jos et oo varma, jyväskylän yliopisto tarjoaa monikärkikandeja (joihin tekniikan kanditkin kuuluu). Nää tarkottaa tutkintoja
         joissa pystyt vaihtamaan IT-tiedekunnan muihin maistereihin (KTM, DI ja FM) tietyin ehdoin ja ilman lisäopintoja ja ilman erillistä 
