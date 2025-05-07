@@ -8,13 +8,33 @@
 }
 
 /* Keskitetään kaikki sisältö kontissa */
-.studies-container h1,
-.studies-container h2,
-.studies-container h3,
+
 .studies-container p {
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+.maisterikyssari {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.studies-container h1{
+  text-align: left;
+  font-size: 25px;
+}
+
+.studies-container h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+
+.studies-container h3 {
+  text-align: left;
+  font-size: 15px;
 }
 
 /* Taulukko-opintopolku */
@@ -98,6 +118,47 @@ a:hover {
   color: white;
 }
 
+/* HERO-OSIO: Passionhedelmä */
+.hero-container-tutkinto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem 4rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-wrapper-tutkinto {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.hero-image-tutkinto {
+  width: 100%;
+  height: auto;
+  margin: 3rem auto;
+  display: block;
+  z-index: 1;
+}
+
+.hero-text-tutkinto {
+  flex: 1;
+  text-align: left;
+}
+
+.titleTutkinto {
+  font-size: 4.5rem;
+  color: #122262;
+  margin-bottom: 1rem;
+}
+
+.hero-summary-tutkinto {
+  font-size: 1rem;
+  color: #333;
+  max-width: 600px;
+}
 
 /* Responsiivisuus mobiililaitteille */
 @media (max-width: 768px) {
@@ -150,5 +211,35 @@ a:hover {
     margin-top: 40px;
     font-size: 16px;
     padding: 0 10px;
+  }
+
+  .hero-container-tutkinto {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .image-wrapper-tutkinto {
+    width: 200px;
+    height: auto;
+  }
+
+  .hero-image-tutkinto {
+    width: 140px;
+    margin: 2rem auto;
+  }
+
+  .hero-text-tutkinto {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .titleTutkinto {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-summary-tutkinto {
+    font-size: 1rem;
   }
 }
