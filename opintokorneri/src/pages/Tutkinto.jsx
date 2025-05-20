@@ -22,7 +22,7 @@ const KandiPage = () => {
         <div className="hero-text-tutkinto">
           <h1 className="titleTutkinto">Tutkinto</h1>
           <p className="hero-summary-tutkinto">
-            Täältä ajatuksia ja vinkkejä tutkintoon ja sen suunnitteluun.
+            Täältä ajatuksia ja vinkkejä tutkintoon ja sen suunnitteluun. Alta löytyy myös vaihtoehtoinen mallipolku sekä tietoa maisterivaiheessa pääaineen vaihtamiseen monikärkikandin kautta.
           </p>
         </div>
       </div>
